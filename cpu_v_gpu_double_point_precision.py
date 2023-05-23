@@ -1,3 +1,16 @@
+# My results when running this code:
+# double-point precision
+
+# CPU: AMD 7700x
+# GPU: Nvidia 3080 10 GB
+
+# 2.0.1+cu117
+# Time taken to perform matrix multiplication on GPU: 36.05356550216675 seconds
+# Time taken to perform matrix multiplication on CPU: 40.91802358627319 seconds
+# Results are close:  True
+
+
+
 import torch
 import time
 
