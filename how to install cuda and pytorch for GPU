@@ -1,0 +1,35 @@
+Download python here and install it:
+https://www.python.org/downloads/
+
+Set the python interpreter as your environment variable:
+To ensure smooth operation of these scripts and tools, you might want to consider adding this directory to your system's PATH. Here's how you can do it:
+
+Right-click on the Start button and select System.
+Click on Advanced system settings on the right side.
+In the System Properties window, go to the Advanced tab.
+Click on the Environment Variables button near the bottom.
+Under the System variables section, find and select the Path variable.
+Click on the Edit button.
+In the Edit Environment Variable window, click on the New button and paste your path EXAMPLE: C:\Users\daryl\AppData\Local\Programs\Python\Python311\  and C:\Users\daryl\AppData\Local\Programs\Python\Python311\Scripts
+Click on OK to close each window.
+
+Download and install CUDA:
+https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local
+
+install pytorch here:
+https://pytorch.org/get-started/locally/
+
+EXAMPLE:
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+
+Validate install here:
+https://pytorch.org/get-started/locally/#windows-verification
+
+python --version
+
+pip list
+
+
+Steps for linux VM pending.
+
+
